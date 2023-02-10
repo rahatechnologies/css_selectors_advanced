@@ -1,0 +1,21 @@
+h1[title]{
+    background: red;
+}
+
+h1[subheading="heading2"] {
+    background: Yellow;
+}
+
+p[loremipsum="paragraph1"],[hipsteripsum="paragraph2"]{
+    background: green;
+}
+
+p[rel~="only"]{
+    background: black;
+    color: white;
+}
+
+p[rel|="en"]{
+        background: orangered;
+            color: white;
+}

@@ -1,0 +1,53 @@
+/* 
+Media Queries
+Responsive Design
+Style Elements on Different Screen Sizes
+min-width ---> Strating from 
+max-width---> up to Mobile first
+*/
+
+body{
+    background: gray;
+}
+
+.banner{
+    background: blue;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+/* upto 576px i.e.  <= 576px */
+@media screen and (max-width: 576px){
+body{
+    background: red;
+}
+.banner{
+    background: yellow;
+}
+h1{
+    color: black;
+    font-size: 60px;
+}
+}
+
+/* what happened in between 
+576px >= x >= 768px  */
+
+/* after 768px i.e. >= 768px*/
+@media screen and (min-width: 768px) {
+    body {
+        background: green;
+    }
+
+    .banner {
+        background: pink;
+        margin-top: 60px;
+    }
+
+   
+}
