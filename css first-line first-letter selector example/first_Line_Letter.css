@@ -1,0 +1,13 @@
+p::first-line{
+    font-weight: bold;
+}
+p::first-letter{
+    font-size: xx-large;
+}
+.special{
+    font-weight: bold;
+    background: yellow;
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
