@@ -1,0 +1,15 @@
+.special :not(h1){
+    color:red
+}
+
+
+
+/* Last element of similar element list */
+.second_special :nth-last-child(1) {
+    color: green;
+}
+
+/* first element of similar element list */
+.second_special :nth-child(1) {
+    color: green;
+}
